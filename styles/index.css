@@ -1,6 +1,10 @@
 *{
     margin: 0%;
 }
+/* free styles */
+.font-color{
+    color:rgba(37, 36, 50, 1) ;
+}
 /* for logo font style start */
 .logo-font{
   font-family: "Open Sans", sans-serif;
@@ -18,7 +22,7 @@
 }
 /* for logo font style end */
 
-/* Header */
+/* Header start */
 header{
     background-image: url('/Assets/Hero-bg.png');
 }
@@ -56,8 +60,40 @@ nav ul li{
     font-weight: bold;
     font-size: 65px;
     margin-bottom: 37px;
-    color: #252432;
+    color: rgba(37, 36, 50, 1);
 }
 .banner button{
     margin-bottom:156px ;
 }
+/* banner section end */
+/* header end */
+
+/* main start */
+main{
+    padding: 116px 160px 116px 140px;
+}
+/* action section */
+.action{
+    display: flex;
+    justify-content: space-between;
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+.action-description{
+    font-weight: 400px;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 23px 0px 23px;
+}
+.left_side a button{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    width: 200px;
+}
+img{
+    border-radius: 48px;
+}
+/* action section end */
