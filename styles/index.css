@@ -24,7 +24,7 @@
 
 /* Header start */
 header{
-    background-image: url('/images/Hero-bg.png');
+    background-image: url('../images/Hero-bg.png');
     background-size: cover;
 }
 /* navigation bar and logo styles start */
