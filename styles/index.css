@@ -75,7 +75,8 @@ main{
 /* action section */
 .action{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     margin-bottom: 116px;
 }
 .action-title{
@@ -130,3 +131,57 @@ img{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+/* productive user section end */
+/* feedback section start */
+.feedback{
+    margin: 137px 150px;
+}
+.feedback-title{
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.feedback-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.card{
+    background-color: #ffff;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow: 0px 6px 10px 0px black;
+    width: 366.67px;
+    
+    
+    
+}
+.card-title{
+    margin-top: 24px;
+}
+.reviews{
+    display: flex;
+    text-align: center;
+}
+.card p{
+    margin:8px 0px 24px 0px ;
+}
+.feedback .reviews img{
+    border-radius: 9999px;
+    height: 40px;
+    width: 40px;
+}
+.name-date{
+    margin-left: 12px;
+}
+.reviewer-name{
+    color: #757575;
+}
+.date{
+    text-align: left;
+    color: #b3b3b3;
+}
+/* feedback section end */
