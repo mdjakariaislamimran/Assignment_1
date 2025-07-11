@@ -185,3 +185,32 @@ img{
     color: #b3b3b3;
 }
 /* feedback section end */
+/* focus section start */
+.focus-container {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    width: 1280px;
+    margin: 0 auto; 
+}
+
+
+.focus-title{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+}
+.focus-des{
+    color: #757575;
+    margin-bottom: 20px;
+}
+.focus-container img{
+    margin-top: 20px;
+    border-radius: 48px;
+}
+/* focus section end */
